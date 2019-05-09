@@ -1,0 +1,69 @@
+.end { 
+	background-color: #231f20;
+	background-size: cover;
+	width: 100%;
+}
+
+.avatars {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0% 2.5% 0% 2.5%;
+}
+
+.avatar {
+  padding: 0px 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.ul {
+  margin:0 8% 0 8%;
+  padding: 0 0 0 0;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style-type: none;
+  float: left;
+}
+
+
+
+/*
+.fab {
+  vertical-align: middle;
+  float: right;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  color: red;
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+nav {
+  width:100%;
+  background-color: white;
+  position: fixed;
+}
+
+nav a {
+  display: flex;
+  text-decoration: none;
+  padding: 20px 30px;
+  color: black;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+
+
+

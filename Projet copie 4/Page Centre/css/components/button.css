@@ -1,0 +1,45 @@
+/*.btn-basic {
+	background-color: black;
+	padding: 15px 20px;
+	border-radius: 6px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}*/
+
+.btn-basic {
+	background-color: #515A5A;
+	color: white;
+    padding: 12px 15px 10px 20px;
+	display: table;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	flex-basis: 500px;
+	flex-grow: 1;
+	font-size: 16px;
+    font-family: 'robotolight';
+
+}
+
+
+.btn-ba {
+	background-color: #515A5A;
+	color: white;
+    padding: 12px 15px 10px 20px;
+	display: table;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 30px;
+	flex-basis: 500px;
+	flex-grow: 1;
+	font-size: 16px;
+    font-family: 'robotolight';
+
+}
+

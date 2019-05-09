@@ -1,0 +1,265 @@
+.banner {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%), url(https://cdn.pixabay.com/photo/2018/02/14/10/28/people-3152585_960_720.jpg);
+  color: white;
+  padding: 14% 0px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 299px;
+}
+
+
+.banner h1{
+  background-color: #7e7e7e/*green*/;
+  color: black;
+  font-size: 10vw; /* Responsive font size */ /*150px*/
+  font-weight: bold;
+  margin: 0 auto; /* Center the text container */
+  padding: 10px;
+  width: 50%;
+  height: 15vw; /*200px*/
+  text-align: center; /* Center text */
+  position: absolute;
+  top: 35%; /* Position text in the middle */
+  left: 50%; /* Position text in the middle */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  mix-blend-mode: screen; /* This makes the cutout text possible */
+}
+
+.banner h4{
+  color: #26527C;
+  font-size: 2vw; /* Responsive font size */
+  font-weight: bold;
+  margin: 0 auto; /* Center the text container */
+  padding-top: 3px;
+  text-align: center; /* Center text */
+  position: absolute;
+  top: 45%; /* Position text in the middle */
+  left: 40%;
+  opacity: 1;
+}
+
+
+
+
+.allb ul {
+  margin: 0 8% 0 8%;
+  padding: 0 0 0 0;
+  flex-wrap: wrap;
+}
+
+.allb {
+  width:100%;
+  text-align: center;
+  z-index: 7;
+  margin-top: -230px;
+  margin-left: -45px;
+}
+
+.allb a {
+  display: inline-block;
+  text-decoration: none;
+  margin: 30px 30px 20px 30px;
+  color: white;
+  font-size: 15px;
+  top: 0%;
+}
+
+
+.allb li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+
+.allb a:hover {
+  border-bottom: 2px solid white;
+  margin-bottom: 8px;
+ 
+}
+
+
+.allb ul {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+
+
+
+.buttonban {
+  padding: 10px 5px 8px 5px;
+  border-radius: 0;
+  background-color:  #26527C;
+  font-size: 28px;
+  cursor: pointer;
+  margin: -1% 0% 0% 45%;
+  color: white;
+  text-decoration: none;
+}
+
+.banner a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+
+}
+
+
+
+.nis {
+  /*position: absolute;*/
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0% 15.25% 0% 12.25%;
+  padding-top: 20vw;
+
+}
+
+.ni {
+  align-items: center;
+  justify-content: space-between;
+  /*box-shadow: 0px 10px 30px rgba(0,0,0,0.2);*/
+  flex-basis: 12px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.ni img {
+  align-items: center;
+  height: 11vw/*150px*/;
+  width: 11vw;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  right: 50%;
+  left: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.ni h3 {
+  flex-grow: 1;
+  font-size: 1.5vw/*20px*/;
+  color: white;
+  text-align: center;
+  font-family: 'Arial';
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+        <ul>
+          <div class="allb">
+            <li class="banner-contact>"><h2><a href="Pageméthode.html">NOTRE MÉTHODE</a></h2></li>
+            <li class="banner-contact"><h2><a href="Page 2/Page2.html">INDUSTRIES</a></h2></li>
+            <li class="banner-contact"><h2><a href="#apply-section">HELLO</a></h2></li>       
+            <li class="banner-contact"><h2><a href="#apply-section">CONTACT</a></h2></li> 
+          </div>
+        </ul>
+
+
+
+<div class="buttonban"><a href="#bslide"> SCROLL</a></div>
+
+.buttonban {
+    padding: 10px 0px 21px 5px;
+    border-radius: 0;
+    background-color: #4F7C26;
+    font-size: 28px;
+    cursor: pointer;
+    margin: 44% 48% -45% 45%;
+  color: white;
+  text-decoration: none;
+}
+
+.banner a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
+        <div class ="cercles">
+          <div class="yolo"><div class="dos"><img src="Page Centre/Images/sean.jpg" alt="Catégorie Normal"><p>TRANSFORMATION <br>DIGITALE</p></div></div>
+          <div class="yolo"><div class="tres"><img src="Page Centre/Images/sean.jpg" alt="Catégorie Normal"><p>CHANGE<br> MANAGEMENT</p></div></div>
+          <div class="yolo"><div class="dos"><img src="Page Centre/Images/sean.jpg" alt="Catégorie Normal"><p>STRATÉGIE D'OUTSOURCING</p></div></div>
+        </div>  
+
+
+
+.cercles {
+  position: absolute;
+  top: 58%; /* Position text in the middle 
+  left: 29%; /* Position text in the middle 
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.yolo {
+  display: inline-block;
+}
+
+.cercles img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 80px;
+  cursor: pointer;
+}
+
+
+.yolo p {
+  position: absolute;
+  text-align: center;
+    font-weight: bold;
+
+}
+
+
+.dos p {
+  margin-top: 10px;
+    padding-right: 65px;
+}
+
+.tres p {
+      padding-left: 12px;
+      margin-top: 10px;
+}
+

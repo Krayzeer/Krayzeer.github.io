@@ -1,0 +1,31 @@
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #D6DBDF;
+    padding: 10px;
+}
+
+.page h1  {
+    color: black;
+	text-align: left;
+    margin: 0% 10% 0% 10%;
+    font: 14px "robotolight",sans-serif;
+    text-decoration: none;
+}
+
+.page a {
+    color: black;
+	text-align: left;
+    font: 14px "robotolight",sans-serif;
+    text-decoration: none;
+}
+
+.page a:hover {
+	color: red;
+
+}
+/*
+
+		<div class="page">
+			<h1> <a href="#">ACCUEIL > </a>CENTRE</h1>
+		</div>

@@ -1,0 +1,72 @@
+.banner {
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%), url(https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+	color: white;
+	padding: 14% 0px;
+	background-size: cover;
+	background-position: center;
+ 	background-attachment: fixed;
+ 	height: 200px;
+}
+
+
+.banner h1{
+  background-color: green;
+  color: black;
+  font-size: 10vw; /* Responsive font size */
+  font-weight: bold;
+  margin: 0 auto; /* Center the text container */
+  padding: 10px;
+  width: 50%;
+  text-align: center; /* Center text */
+  position: absolute; /* Position text */
+  top: 50%; /* Position text in the middle */
+  left: 50%; /* Position text in the middle */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  mix-blend-mode: screen; /* This makes the cutout text possible */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.banner {
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%), url(../../Images/fond.jpeg);
+	color: white;
+	padding: 14% 0px;
+	background-size: cover;
+	background-position: center;
+ 	background-attachment: fixed;
+}
+
+.banner h1 {
+	font-size: 50px;
+}
+
+.banner h2 {
+	font-size: 30px;
+	font-weight: lighter;
+	/*opacity: 0.8;*/
+}
+
+/*
+
+		<div id="bban" class="banner">
+			<div class="container">
+				<h1> AS PEN  Consulting</h1>	
+				<a href="#baxes" class="btn-basic">NOS AXES</a>
+				<h1>Project Enablers Network</h1>
+			</div>
+		</div>
+

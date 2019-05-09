@@ -1,0 +1,73 @@
+.transformation {
+    /*background: linear-gradient(#c81a78, #944d9d);*/
+    /*background: linear-gradient(#DEDED6, #8A8A7E);*/
+    background: #C0C0BB;
+ 	padding: 2% 0% 3% 0%;
+}
+
+.transformation h5 {
+	color: #646871;
+	font-size: 42px;
+    line-height: 50px;
+    font-weight: bold;
+	font-family: "Arial Black", Gadget, sans-serif;
+    display: block;
+    padding-bottom: 30px;	
+}
+
+.ensemble {
+	display: flex;
+	margin: 0% 3.25% 0% 2.5%;
+ 	flex-grow: 1;
+ 	flex-basis: 600px;
+}
+
+.ctexte {
+	color: white;
+	background-size: left;
+	background-position: left;
+ 	background-repeat: no-repeat;
+ 	width: 100%;
+ 	text-align: left;
+}
+
+.ctexte p {
+	margin: 0;
+	color: black;
+	font-family: 'robotoregular';
+	font-size: 22px;
+}
+
+.ctexte a {
+	text-decoration: underline;
+	color: black;
+	font-size: 15px;
+}
+
+.cimage {
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%), url(../../Images/avatar2.jpg);
+	background-size: right;
+	background-position: center;
+ 	background-repeat: no-repeat;
+ 	width: 100%;
+ 	height: 250px;
+	margin-left: 5%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
